@@ -1,5 +1,6 @@
 --The Goal is to get insight on the pricing differences between airbnb's
-USE Project_3
+-- skills used: Aggregate Functions, CTE's, Joins, Window Functions, String Functions, Case Expression
+
 -------------------------------------------------------------------Part 1 : Data Cleaning------------------------------------------------------------------------
 
 --Dropping columns that are unusable due to too many nulls
@@ -23,7 +24,7 @@ SELECT TRIM('{, }, "' FROM amenities)
 FROM Project_3.dbo.Listings
 
 UPDATE Project_3.dbo.Listings
-SET	amenities = TRIM('{, }, "' FROM amenities)
+SET amenities = TRIM('{, }, "' FROM amenities)
 
 UPDATE Project_3.dbo.Listings
 SET amenities = REPLACE(amenities, '"', '')
