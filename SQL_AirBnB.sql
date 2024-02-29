@@ -1,5 +1,5 @@
+--The Goal is to get insight on the pricing differences between airbnb's
 -------Part 1: Cleaning the Data-------
-
 
 --Remove quotation marks from reviews table and Add to Table
 UPDATE dbo.Reviews
