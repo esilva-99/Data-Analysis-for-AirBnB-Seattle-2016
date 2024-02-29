@@ -1,5 +1,5 @@
 --The Goal is to get insight on the pricing differences between airbnb's
--- skills used: Aggregate Functions, CTE's, Joins, Window Functions, String Functions, Case Expression
+--Skills Used: Aggregate Functions, CTE's, Joins, Window Functions, String Functions, Case Expression
 
 -------------------------------------------------------------------Part 1 : Data Cleaning------------------------------------------------------------------------
 
