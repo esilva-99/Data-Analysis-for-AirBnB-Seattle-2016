@@ -47,7 +47,7 @@ WHERE id = 9448215
 
 UPDATE Project_3.dbo.Listings
 SET zipcode = '98122'
-WHERE ID =	 4172364
+WHERE ID = 4172364
 
 UPDATE Project_3.dbo.Listings
 SET zipcode = '98104'
