@@ -156,12 +156,17 @@ FROM Project_3.dbo.Calendar
 GROUP BY MONTH(date), Year(date)
 ORDER BY year, month
 
-
---Seasonal demand using the reviews table
+--check how many years in reviews table 
+SELECT YEAR(date), count(*)
+FROM Project_3.dbo.Reviews
+GROUP BY YEAR(date)
+	
+--Seasonal demand using the reviews table (2009-2016)
 SELECT MONTH(date) AS month, COUNT(id) AS number_of_reviews
 FROM Project_3.DBO.Reviews
 GROUP BY MONTH(date)
 ORDER BY month
+	
 ----------------------------------------Part 3: Investigating other factors 
 
 --What kind of listings ask for a security deposit?
