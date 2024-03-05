@@ -19,5 +19,4 @@ Lastly, I wanted to give a potential investor a guide on how much to charge for 
 
 I compiled all my findings into a comprehensive Tableau dashboard to provide a possible investor with easily digestible information on the nature and trends that he/she can expect from the Seattle Airbnb market.
 
-
-
+https://public.tableau.com/views/Seattle2016AirBnb/SeattleAirBnB_2016?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link
